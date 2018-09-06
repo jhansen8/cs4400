@@ -50,3 +50,56 @@ int main(int argc, char* argv[])
         aMatch(sequence, t);
     }
 }
+        // for (idx; idx < strlen(sequence); idx++)
+        // {
+        //     if(sequence[idx] == 'c')
+        //     {
+        //         cCount = cCount + 1;
+
+        //         if (sequence[idx] == ',' && cCount >= 1)
+        //         {
+        //             commaCount = commaCount + 1;
+        //             idx++;
+
+        //             for (idx; idx < strlen(sequence); idx++)
+        //             {
+        //                 if (sequence[idx] == 'y' && commaCount == 1 && cCount >= 1)
+        //                 {
+        //                     yCount = yCount + 1;
+        //                 }
+        //             }
+        //         }
+        //     }
+        //     else if (sequence[idx] == ',' && cCount >= 1)
+        //     {
+        //         commaCount = commaCount + 1;
+        //     }
+        //     else if (sequence[idx] == 'y' && commaCount == 1 && cCount >= 1)
+        //     {
+        //         yCount = yCount + 1;
+        //     }
+        //     else if (sequence[idx] == '=' && yCount >= 4 && yCount <= 5 && commaCount == 1 &&
+        //                 cCount >=1)
+        //     {
+        //         equalCount = equalCount + 1;
+        //     }
+        //     else if (sequence[idx] >= 'A' && sequence[idx] <= 'Z' && equalCount == 2 && 
+        //             yCount >= 4 && yCount <= 5 && commaCount == 1 && cCount >=1)
+        //     {
+        //         capitalCount = capitalCount + 1;
+        //     }
+        //     else if (idx == strlen(sequence) && capitalCount % 2 == 1 && equalCount == 2 && 
+        //             yCount >= 4 && yCount <= 5 && commaCount == 1 && cCount >=1)
+        //     {
+        //         printf("yay\n");
+        //         break;
+        //     }
+        //     else 
+        //     {
+        //         isValid = 0;
+        //         printf("no\n");
+        //         break;
+        //     }
+
+        //     idx++;
+        // }
